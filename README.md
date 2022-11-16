@@ -1,7 +1,7 @@
 ### Environment
 
 - **[Laravel v9](https://laravel.com/docs/9.x)**
-- **[phpv8.1] (https://www.php.net/releases/8.1/en.php)
+- **[phpv8.1] (https://www.php.net/releases/8.1/en.php)**
 - **[Composer v2](https://getcomposer.org/)**
 - **[Mysql v8](https://www.mysql.com/)**
 - **[Node v 16](https://nodejs.org/en/)**
@@ -24,7 +24,7 @@
 ### Description And Project Consist of
 - **MVC Architecture**
 - **Repositories as layer of abstraction**
-- **Traits for both Controller and Repository for simple code for code reusabilty**
+- **Traits for both Controller and Repository for simple crud for code reusabilty**
 - **Backend Validation**
 - **Client Side Validation**
 - **Unit Test for event lisiting and single event**
@@ -35,10 +35,3 @@
 - **Consist of event edit functionality too**
 - **Delete event using ajax**
 - **Consist Filters in index page**
-
-
-
-*Note:: In case of new package addition or changes in permission or menu. Please generate the permission and menu again.
-In case of changes in settings. Please generate the settings again. All the routes file should be written separately for clean and minimal architecture.*  
-
-
