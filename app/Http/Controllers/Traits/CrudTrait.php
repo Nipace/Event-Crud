@@ -15,7 +15,7 @@ trait CrudTrait
         $filter = $this->model->filter($params);
         $records = $filter->orderBy('start_date','asc')->get();
         $view = $this->view . '.index';
-        return view($view,['records' => $records]);
+        return view($view,['records' => $records,'params' => $params]);
     }
 
     public function create()
